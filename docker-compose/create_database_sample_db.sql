@@ -2,12 +2,12 @@ create database sample_db
 
 use sample_db
 
-create table sample_db.ACCOUNT
+create table ACCOUNT
 (
     ID             int auto_increment
         primary key,
     OPERATION_TYPE varchar(10) null,
-    VALUE          bigint      not null,
+    VALUE          double      not null,
     DATE           datetime    null
 );
 
